@@ -1,0 +1,136 @@
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+
+  background-color: #f6f8ff;
+  color: #333;
+  margin: 0;
+  padding: 40px;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#search-bar {
+  margin-bottom: 40px;
+}
+
+#search-input {
+  padding: 10px;
+  width: 76%;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+#search-button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  outline: none;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+#profile-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+#profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#profile-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+#profile-username {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#profile-bio {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#profile-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #f6f8ff;
+  width: 480px;
+  height: 85px;
+  border-radius: 8px;
+}
+
+#profile-stats p {
+  margin: 0;
+  font-size: 16px;
+  width: 40px;
+  height: 53px;
+  margin-top: 15px;
+}
+
+#location,
+#website,
+#twitter,
+#company {
+  color: #666;
+}
+
+#company {
+  margin-bottom: 0;
+}
+#links {
+  display: flex;
+}
+.links-2 {
+  display: grid;
+  margin: 0;
+  font-size: 16px;
+  margin-top: 15px;
+  gap: 19px;
+}

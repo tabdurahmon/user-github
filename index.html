@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>DevFinder</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="search-bar">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search GitHub username..."
+        />
+        <button id="search-button">Search</button>
+      </div>
+
+      <div id="profile-card">
+        <img
+          id="profile-image"
+          src="./images/c9df73994117881587b8837cdf38354a.png"
+          alt="Profile Image"
+        />
+        <div>
+          <h1 id="profile-name">The Octocat</h1>
+          <a href="#" target="_blank" id="profile-username">@octocat</a>
+          <p id="profile-bio">This profile has no bio</p>
+
+          <div id="profile-stats">
+            <p id="repos">Repos: <span>8</span></p>
+            <p id="followers">Followers: <span>3938</span></p>
+            <p id="following">Following: <span>9</span></p>
+          </div>
+          <div id="links">
+            <div>
+              <p id="location">
+                <img src="./images/location.svg" /> San Francisco
+              </p>
+              <a href="#" id="website">
+                <img src="./images/url.svg" /> https://github.blog
+              </a>
+            </div>
+            <div class="links-2">
+              <a href="#" id="twitter"
+                ><img src="./images/twitter.svg" />Not Available</a
+              >
+              <a href="#" id="company"
+                ><img src="./images/building.svg" /> @github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
